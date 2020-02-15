@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    //PKA: here we will add comments
     public class CartItem : ILineItem
     {
         [Key]
@@ -18,5 +19,6 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }
         //PKA: Comment - nothing else
+        //PKA: One more
     }
 }
