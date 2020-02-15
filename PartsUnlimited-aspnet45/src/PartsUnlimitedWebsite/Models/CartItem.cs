@@ -19,6 +19,6 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }
         //PKA: Comment - nothing else
-        //PKA: One more
+        //PKA: One more - added more words
     }
 }
